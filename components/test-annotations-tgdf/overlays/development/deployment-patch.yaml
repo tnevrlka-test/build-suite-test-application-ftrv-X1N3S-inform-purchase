@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-tgdf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-syzh-tenant/build-suite-test-application-ftrv/test-annotations-tgdf@sha256:6b175e749d4ffedfa503060ff55a636adf35965117899aac3184061283ebdbff
+        name: my-nginx
+        resources: {}
+status: {}
