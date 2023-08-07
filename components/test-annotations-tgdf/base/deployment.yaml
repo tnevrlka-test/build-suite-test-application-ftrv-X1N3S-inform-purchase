@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-tgdf
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-syzh-tenant/build-suite-test-application-ftrv/test-annotations-tgdf@sha256:6b175e749d4ffedfa503060ff55a636adf35965117899aac3184061283ebdbff
+      - image: quay.io/tnevrlka-test/build-e2e-syzh-tenant/build-suite-test-application-ftrv/test-annotations-tgdf@sha256:63a9615b78bd2a8455b9e718e6ee7a42083b9a1dd01f1f072949d956c5065c70
         name: my-nginx
         ports:
         - containerPort: 8080
